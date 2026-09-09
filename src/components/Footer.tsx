@@ -55,8 +55,8 @@ export default function Footer() {
               className="hover:underline"
             >
               <img
-                src="src/assets/images/whatsappblack.svg"
-                alt="Shopee"
+                src={WhatsAppIcon}
+                alt="WhatsApp"
                 className="w-4 h-4 object-contain"
               />
             </a>
@@ -68,8 +68,8 @@ export default function Footer() {
               className="hover:underline"
             >
               <img
-                src="src/assets/images/tokopedia.svg"
-                alt="Shopee"
+                src={TokopediaIcon}
+                alt="Tokopedia"
                 className="w-4 h-4 object-contain"
               />
             </a>
@@ -81,7 +81,7 @@ export default function Footer() {
               className="hover:underline"
             >
               <img
-                src="src/assets/images/shopee.svg"
+                src={ShopeeIcon}
                 alt="Shopee"
                 className="w-4 h-4 object-contain"
               />
