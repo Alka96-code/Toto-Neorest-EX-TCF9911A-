@@ -1,6 +1,10 @@
 import { MessageCircle } from "lucide-react";
+// 👇 1. IMPORT IKON DI SINI (Memastikan Vercel dapat membaca file gambar dengan benar)
+import TokopediaIcon from "../assets/images/tokopedia.svg";
+import ShopeeIcon from "../assets/images/shopee.svg";
 
 export default function PricingSection() {
+  // 👇 Silakan isi nomor WhatsApp Anda di sini, contoh: "https://wa.me..."
   const whatsappUrl = "https://wa.me?";
   const tokopediaUrl = "https://tokopedia.com";
   const shopeeUrl = "https://shopee.co.id";
@@ -35,25 +39,22 @@ export default function PricingSection() {
             </span>
           </div>
 
-          {/* 3. Reference Label */}
-          <div className="mb-2">
-            <span className="block text-xs uppercase tracking-widest text-[#A7ADB2]">
+          {/* ⚠️ BAGIAN HARGA YANG SUDAH DISARANKAN & DISAMAKAN UKURANNYA */}
+          <div className="flex flex-col items-center justify-center space-y-2 mb-6">
+            {/* Harga Promo Label */}
+            <span className="text-lg sm:text-xl lg:text-2xl font-medium uppercase tracking-widest text-[#A7ADB2]">
               Harga Promo
             </span>
-          </div>
 
-          {/* 4. Reference Price */}
-          <div className="mb-5">
-            <span className="text-sm sm:text-base text-[#A7ADB2] line-through font-light">
-              Rp15.00.000
+            {/* Harga Coret */}
+            <span className="text-2xl sm:text-3xl lg:text-4xl text-[#A7ADB2] line-through font-light">
+              Rp15.000.000
             </span>
-          </div>
 
-          {/* 5. Main Price */}
-          <div className="mb-3.5 flex justify-center items-center w-full overflow-hidden">
-            <div className="text-[clamp(1.95rem,8.5vw,4.25rem)] font-light text-[#111111] tracking-tight leading-none whitespace-nowrap max-w-full text-center">
+            {/* Harga Utama (Ditawarkan) */}
+            <span className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#111111] tracking-tight">
               Rp9.900.000
-            </div>
+            </span>
           </div>
 
           {/* 6. Savings Badge */}
@@ -95,8 +96,9 @@ export default function PricingSection() {
                 rel="noopener noreferrer"
                 className="w-full min-h-[48px] inline-flex items-center justify-center space-x-2.5 px-5 py-3 border border-[#C7C9CC] text-[#111111] hover:border-[#111111] hover:bg-[#FAFAFA] transition-colors duration-200 text-xs font-medium tracking-wider uppercase"
               >
+                {/* 👇 MENGGUNAKAN VARIABEL IMPORT YANG SUDAH JELAS PATH-NYA */}
                 <img
-                  src="src/assets/images/tokopedia.svg"
+                  src={TokopediaIcon}
                   alt="Tokopedia"
                   className="w-4 h-4 object-contain"
                 />
@@ -111,8 +113,9 @@ export default function PricingSection() {
                 rel="noopener noreferrer"
                 className="w-full min-h-[48px] inline-flex items-center justify-center space-x-2.5 px-5 py-3 border border-[#C7C9CC] text-[#111111] hover:border-[#111111] hover:bg-[#FAFAFA] transition-colors duration-200 text-xs font-medium tracking-wider uppercase"
               >
+                {/* 👇 MENGGUNAKAN VARIABEL IMPORT YANG SUDAH JELAS PATH-NYA */}
                 <img
-                  src="src/assets/images/shopee.svg"
+                  src={ShopeeIcon}
                   alt="Shopee"
                   className="w-4 h-4 object-contain"
                 />
