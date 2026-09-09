@@ -39,10 +39,10 @@ export default function PricingSection() {
             </span>
           </div>
 
-          {/* ⚠️ BAGIAN HARGA YANG SUDAH DISARANKAN & DISAMAKAN UKURANNYA */}
+          {/* BAGIAN HARGA YANG SUDAH DISARANKAN & DISAMAKAN UKURANNYA */}
           <div className="flex flex-col items-center justify-center space-y-2 mb-6">
             {/* Harga Promo Label */}
-            <span className="text-lg sm:text-xl lg:text-2xl font-medium uppercase tracking-widest text-[#A7ADB2]">
+            <span className="text-lg sm:text-xl lg:text-2xl font-medium uppercase tracking-widest text-[#111111]">
               Harga Promo
             </span>
 

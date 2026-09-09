@@ -1,3 +1,8 @@
+// 👇 1. IMPORT IKON DI SINI (Memastikan Vercel dapat membaca file gambar dengan benar)
+import WhatsAppIcon from "../assets/images/whatsappblack.svg";
+import TokopediaIcon from "../assets/images/tokopedia.svg";
+import ShopeeIcon from "../assets/images/shopee.svg";
+
 export default function Footer() {
   const whatsappUrl =
     "https://wa.me/?text=Halo,%20saya%20tertarik%20dengan%20TOTO%20NEOREST%20EX%20TCF9911A.";
