@@ -5,7 +5,8 @@ import ShopeeIcon from "../assets/images/shopee.svg";
 
 export default function Footer() {
   const whatsappUrl =
-    "https://wa.me/?text=Halo,%20saya%20tertarik%20dengan%20TOTO%20NEOREST%20EX%20TCF9911A.";
+    "https://wa.me/6285892713270?text=Halo,%20saya%20tertarik%20dengan%20unit%20TOTO%20NEOREST%20EX%20TCF9911A."; // Ganti nomor sesuai kebutuhan
+
   const tokopediaUrl = "https://www.tokopedia.com";
   const shopeeUrl = "https://shopee.co.id";
 
