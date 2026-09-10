@@ -5,25 +5,18 @@ import {
   Check,
   MessageCircle,
   ExternalLink,
-  ShieldCheck,
   ChevronLeft,
   ChevronRight,
-} from "lucide-react";
-
+} from "lucide-react"; // Menghapus ShieldCheck karena tidak digunakan
 import { productImages } from "../assets/images";
-// HAPUS IMPOR VIDEO LOKAL INI:
-// import videoToto from "../assets/images/video_toto.mp4";
 
 export default function ActualUnitProofSection() {
   const [selectedPhotoIndex, setSelectedPhotoIndex] = useState<number>(0);
-
   const whatsappDemoUrl =
     "https://wa.me/?text=Halo,%20saya%20ingin%20melihat%20video%20demonstrasi%20dan%20foto%20detail%20unit%20TOTO%20NEOREST%20EX%20TCF9911A.";
 
-  // MASUKKAN ID VIDEO YOUTUBE ANDA DI SINI
-  // Contoh jika URL YouTube Anda adalah https://youtube.com atau https://youtube.com
-  // Maka ID-nya adalah "dQw4w9WgXcQ"
-  const youtubeVideoId = "QEgnPyz53Qw?si=r1uTTbcq4DKcS6iF";
+  // KOREKSI 1: Disarankan hanya memasukkan ID-nya saja agar aman saat dimasukkan ke URL embed
+  const youtubeVideoId = "QEgnPyz53Qw";
 
   const detailPhotos = [
     {
@@ -75,11 +68,9 @@ export default function ActualUnitProofSection() {
           <span className="mb-3 block text-xs font-semibold uppercase tracking-[0.25em] text-[#A7ADB2]">
             Foto & Video
           </span>
-
           <h2 className="mb-3 text-2xl font-light leading-tight tracking-tight text-[#111111] sm:text-3xl lg:text-4xl">
             Kondisi Unit
           </h2>
-
           <p className="text-base font-light leading-relaxed text-[#2B2B2B] sm:text-lg">
             Unit telah dibersihkan secara menyeluruh dan dipersiapkan dengan
             baik. Kondisi serta fungsi utama dapat dilihat melalui foto dan
@@ -90,7 +81,6 @@ export default function ActualUnitProofSection() {
         {/* ========================= */}
         {/* PHOTO SLIDESHOW */}
         {/* ========================= */}
-
         <div className="mb-14">
           <div className="relative overflow-hidden border border-[#E8EAEC] bg-[#F4F5F6]">
             <div className="relative aspect-[4/3] w-full sm:aspect-[16/10] lg:aspect-[16/9]">
@@ -112,15 +102,7 @@ export default function ActualUnitProofSection() {
                 type="button"
                 onClick={handlePrevious}
                 aria-label="Foto sebelumnya"
-                className="
-                  absolute left-3 top-1/2
-                  flex h-10 w-10 -translate-y-1/2
-                  items-center justify-center
-                  rounded-full bg-white/90
-                  text-[#111111] shadow-md
-                  transition hover:bg-white
-                  sm:left-5
-                "
+                className="absolute left-3 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-[#111111] shadow-md transition hover:bg-white sm:left-5"
               >
                 <ChevronLeft className="h-5 w-5" />
               </button>
@@ -130,15 +112,7 @@ export default function ActualUnitProofSection() {
                 type="button"
                 onClick={handleNext}
                 aria-label="Foto berikutnya"
-                className="
-                  absolute right-3 top-1/2
-                  flex h-10 w-10 -translate-y-1/2
-                  items-center justify-center
-                  rounded-full bg-white/90
-                  text-[#111111] shadow-md
-                  transition hover:bg-white
-                  sm:right-5
-                "
+                className="absolute right-3 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-[#111111] shadow-md transition hover:bg-white sm:right-5"
               >
                 <ChevronRight className="h-5 w-5" />
               </button>
@@ -149,7 +123,6 @@ export default function ActualUnitProofSection() {
           <div className="mt-4 grid grid-cols-4 gap-2 sm:gap-3">
             {detailPhotos.map((item, index) => {
               const isSelected = selectedPhotoIndex === index;
-
               return (
                 <button
                   key={item.id}
@@ -176,6 +149,7 @@ export default function ActualUnitProofSection() {
         <div className="mx-auto w-full max-w-sm">
           <div className="overflow-hidden rounded-2xl border border-[#E8EAEC] bg-[#111111]">
             <div className="relative w-full aspect-[9/16] bg-[#111111]">
+              {/* KOREKSI 2: Menggunakan format URL /embed/ dan menulis sintaks variabel dengan benar */}
               <iframe
                 src={`https://youtube.com{youtubeVideoId}`}
                 title="YouTube video player"
