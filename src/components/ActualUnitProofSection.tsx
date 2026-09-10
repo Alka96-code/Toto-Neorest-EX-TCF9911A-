@@ -23,7 +23,7 @@ export default function ActualUnitProofSection() {
   // MASUKKAN ID VIDEO YOUTUBE ANDA DI SINI
   // Contoh jika URL YouTube Anda adalah https://youtube.com atau https://youtube.com
   // Maka ID-nya adalah "dQw4w9WgXcQ"
-  const youtubeVideoId = "QEgnPyz53Qw";
+  const youtubeVideoId = "QEgnPyz53Qw?si=r1uTTbcq4DKcS6iF";
 
   const detailPhotos = [
     {
