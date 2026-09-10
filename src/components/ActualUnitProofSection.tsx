@@ -36,15 +36,15 @@ export default function ActualUnitProofSection({
     },
     {
       id: "actual-remote",
-      title: "Remote Control",
+      title: "Tampak Dalam",
       label: "Tampak Dalam",
-      image: productImages.remoteWall,
+      image: productImages.tampakDalam,
     },
     {
       id: "actual-nozzle",
-      title: "Detail Wand & Nozzle",
+      title: "Tampak Belakang",
       label: "Tampak Belakang",
-      image: productImages.cleansingWand,
+      image: productImages.actualBack,
     },
   ];
 

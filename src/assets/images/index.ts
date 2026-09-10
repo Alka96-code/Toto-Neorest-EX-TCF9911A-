@@ -8,6 +8,7 @@ import hotelSuiteImage from "./stok_toilet.jpg";
 import actualFrontImage from "./tampak_depan.jpg";
 import actualSideImage from "./tampak_samping.jpg";
 import actualBackImage from "./tampak_belakang.jpg";
+import actualInsideImage from "./tampak_dalam.jpg";
 
 export const productImages = {
   hero: heroImage,
@@ -20,4 +21,5 @@ export const productImages = {
   actualFront: actualFrontImage,
   actualSide: actualSideImage,
   actualBack: actualBackImage,
+  tampakDalam: actualInsideImage,
 };

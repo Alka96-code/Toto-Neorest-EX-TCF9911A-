@@ -33,7 +33,7 @@ export default function MainBenefitsSection() {
     {
       id: "benefit-warm-air-freshness",
       number: "03",
-      tag: "HANGAT & BEBAS BAU",
+      tag: "Hangat & Bebas Bau",
       title: "Kehangatan Suhu dan Menghilangkan Bau",
       copy: "Nikmati kemewahan dudukan hangat yang nyaman, hembusan pengering udara yang hangat dan lembut, serta deodorizer otomatis yang membantu menghilangkan bau.",
       image: productImages.warmAir,
