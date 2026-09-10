@@ -1,12 +1,12 @@
-import heroImage from "./toto_hero.JPG";
-import cleansingWandImage from "./toto_cleansing.JPG";
-import heatedSeatImage from "./bebas_sentuhan.JPG";
-import warmAirImage from "./suhu_udara.JPG";
-import remoteWallImage from "./toto_remote.JPG";
-import hotelSuiteImage from "./stok_toilet.JPG";
-import actualFrontImage from "./tampak_depan.JPG";
-import actualSideImage from "./tampak_samping.JPG";
-import actualBackImage from "./tampak_belakang.JPG";
+import heroImage from "./toto_hero.jpg";
+import cleansingWandImage from "./toto_cleansing.jpg";
+import heatedSeatImage from "./bebas_sentuhan.jpg";
+import warmAirImage from "./suhu_udara.jpg";
+import remoteWallImage from "./toto_remote.jpg";
+import hotelSuiteImage from "./stok_toilet.jpg";
+import actualFrontImage from "./tampak_depan.jpg";
+import actualSideImage from "./tampak_samping.jpg";
+import actualBackImage from "./tampak_belakang.jpg";
 
 export const productImages = {
   hero: heroImage,
