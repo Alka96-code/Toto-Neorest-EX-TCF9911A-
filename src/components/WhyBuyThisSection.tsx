@@ -12,10 +12,11 @@ export default function WhyBuyThisSection() {
       title: "Fitur Lengkap",
       copy: "Cleansing, heated seat, warm air dryer, automatic flush, deodorizer, dan remote control hadir dalam satu sistem terintegrasi.",
     },
+
     {
       number: "03",
-      title: "Garansi",
-      copy: "Jaminan kualitas dengan garansi fungsi penuh selama 1 bulan.",
+      title: "Standar Hotel Mewah",
+      copy: "Unit pilihan standar bintang lima yang dirawat dengan baik, memberikan sentuhan kemewahan instan pada kamar mandi Anda.",
     },
   ];
 
