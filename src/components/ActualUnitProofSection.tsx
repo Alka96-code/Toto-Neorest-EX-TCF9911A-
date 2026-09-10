@@ -10,13 +10,16 @@ import {
 } from "lucide-react"; // Menghapus ShieldCheck karena tidak digunakan
 import { productImages } from "../assets/images";
 
-export default function ActualUnitProofSection() {
+interface ActualUnitProofSectionProps {
+  youtubeVideoId?: string;
+}
+
+export default function ActualUnitProofSection({
+  youtubeVideoId = "QEgnPyz53Qw",
+}: ActualUnitProofSectionProps) {
   const [selectedPhotoIndex, setSelectedPhotoIndex] = useState<number>(0);
   const whatsappDemoUrl =
     "https://wa.me/?text=Halo,%20saya%20ingin%20melihat%20video%20demonstrasi%20dan%20foto%20detail%20unit%20TOTO%20NEOREST%20EX%20TCF9911A.";
-
-  // KOREKSI 1: Disarankan hanya memasukkan ID-nya saja agar aman saat dimasukkan ke URL embed
-  const youtubeVideoId = "QEgnPyz53Qw";
 
   const detailPhotos = [
     {
@@ -149,9 +152,8 @@ export default function ActualUnitProofSection() {
         <div className="mx-auto w-full max-w-sm">
           <div className="overflow-hidden rounded-2xl border border-[#E8EAEC] bg-[#111111]">
             <div className="relative w-full aspect-[9/16] bg-[#111111]">
-              {/* KOREKSI 2: Menggunakan format URL /embed/ dan menulis sintaks variabel dengan benar */}
               <iframe
-                src="https://youtube.com"
+                src={`https://www.youtube.com/embed/${encodeURIComponent(youtubeVideoId)}`}
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
