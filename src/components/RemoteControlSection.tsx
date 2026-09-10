@@ -44,7 +44,7 @@ export default function RemoteControlSection() {
         </div>
 
         {/* Remote Visual & Functionalities Editorial Composition */}
-        <div className="bg-white border border-[#E8EAEC] grid grid-cols-1 lg:grid-cols-12 items-stretch overflow-hidden shadow-xs rounded-t-xl">
+        <div className="bg-white border border-[#E8EAEC] grid grid-cols-1 lg:grid-cols-12 items-stretch overflow-hidden shadow-xs rounded-xl">
           {/* Visually Dominant Remote Photography */}
           <div className="lg:col-span-6 bg-[#F4F5F6] border-b lg:border-b-0 lg:border-r border-[#E8EAEC] relative overflow-hidden">
             <div className="relative w-full h-full min-h-[320px] sm:min-h-[420px] lg:min-h-full overflow-hidden">

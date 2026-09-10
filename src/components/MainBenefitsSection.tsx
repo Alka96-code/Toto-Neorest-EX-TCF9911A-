@@ -45,7 +45,7 @@ export default function MainBenefitsSection() {
       tag: "Panel Kendali",
       title: "Kemudahan Kendali dalam 1 panel",
       copy: "Panel kendali di dinding untuk mengatur kekuatan semprotan, suhu air, pengering, pembilasan dan masih banyak lagi.",
-      image: productImages.remoteWall,
+      image: productImages.remoteWall1,
       alt: "Remote Control Wall Mount TOTO NEOREST EX",
     },
   ];

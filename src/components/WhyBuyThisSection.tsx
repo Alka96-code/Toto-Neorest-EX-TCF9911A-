@@ -43,16 +43,13 @@ export default function WhyBuyThisSection() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-12 lg:gap-16 items-start">
           {/* Left Side: Atmosphere Visual & Value Statement */}
           <div className="lg:col-span-5 space-y-6 sm:space-y-8">
-            <div className="relative aspect-[4/3] bg-[#E8EAEC]/40 overflow-hidden border border-[#E8EAEC]">
+            <div className="relative aspect-[4/3] bg-[#E8EAEC]/40 overflow-hidden border border-[#E8EAEC] rounded-xl">
               <img
                 src={productImages.hotelSuite}
                 alt="Interior kamar mandi bernuansa suite hotel mewah"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center"
               />
-              <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1.5 text-[11px] font-medium tracking-widest text-[#2B2B2B] uppercase border border-[#E8EAEC]">
-                Hospitality Grade Quality
-              </div>
             </div>
           </div>
 

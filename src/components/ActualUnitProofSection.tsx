@@ -86,7 +86,7 @@ export default function ActualUnitProofSection({
         {/* ========================= */}
         <div className="mb-14">
           <div className="relative overflow-hidden border border-[#E8EAEC] bg-[#F4F5F6]">
-            <div className="relative aspect-[4/3] w-full sm:aspect-[16/10] lg:aspect-[16/9]">
+            <div className="relative aspect-[4/3] w-full sm:aspect-[16/10] lg:aspect-[16/9] rounded-xl">
               <img
                 src={detailPhotos[selectedPhotoIndex].image}
                 alt={detailPhotos[selectedPhotoIndex].title}
