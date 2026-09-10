@@ -47,7 +47,7 @@ export default function PricingSection() {
             </span>
 
             {/* Harga Coret */}
-            <span className="text-2xl sm:text-3xl lg:text-4xl text-[#A7ADB2] line-through font-light">
+            <span className="text-xl sm:text-3xl lg:text-4xl text-[#A7ADB2] line-through font-light">
               Rp15.000.000
             </span>
 
