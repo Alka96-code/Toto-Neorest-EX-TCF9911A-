@@ -4,7 +4,7 @@ import { productImages } from "../assets/images";
 
 export default function HeroSection() {
   const whatsappUrl =
-    "https://wa.me/?text=Halo,%20saya%20tertarik%20dengan%20unit%20TOTO%20NEOREST%20EX%20TCF9911A.";
+    "https://wa.me/6285892713270?text=Halo,%20saya%20tertarik%20dengan%20unit%20TOTO%20NEOREST%20EX%20TCF9911A."; // Ganti nomor sesuai kebutuhan
 
   const handleScrollToDetail = () => {
     const el = document.getElementById("benefits");

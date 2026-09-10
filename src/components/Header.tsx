@@ -2,7 +2,7 @@ import whatsappIcon from "../assets/images/whatsappblack.svg";
 
 export default function Header() {
   const whatsappUrl =
-    "https://wa.me/6281234567890?text=Halo,%20saya%20tertarik%20dengan%20unit%20TOTO%20NEOREST%20EX%20TCF9911A."; // Ganti nomor sesuai kebutuhan
+    "https://wa.me/6285892713270?text=Halo,%20saya%20tertarik%20dengan%20unit%20TOTO%20NEOREST%20EX%20TCF9911A."; // Ganti nomor sesuai kebutuhan
 
   return (
     <header className="fixed top-0 left-0 right-0 z-40 bg-white shadow-sm p-4">

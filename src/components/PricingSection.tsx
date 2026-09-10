@@ -5,7 +5,9 @@ import ShopeeIcon from "../assets/images/shopee.svg";
 
 export default function PricingSection() {
   // 👇 Silakan isi nomor WhatsApp Anda di sini, contoh: "https://wa.me..."
-  const whatsappUrl = "https://wa.me?";
+  const whatsappUrl =
+    "https://wa.me/6285892713270?text=Halo,%20saya%20tertarik%20dengan%20unit%20TOTO%20NEOREST%20EX%20TCF9911A."; // Ganti nomor sesuai kebutuhan
+
   const tokopediaUrl = "https://tokopedia.com";
   const shopeeUrl = "https://shopee.co.id";
 
