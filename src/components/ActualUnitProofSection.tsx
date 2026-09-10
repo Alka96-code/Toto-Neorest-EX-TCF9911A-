@@ -151,7 +151,7 @@ export default function ActualUnitProofSection() {
             <div className="relative w-full aspect-[9/16] bg-[#111111]">
               {/* KOREKSI 2: Menggunakan format URL /embed/ dan menulis sintaks variabel dengan benar */}
               <iframe
-                src={"https://www.://youtube.com" + youtubeVideoId}
+                src={`https://youtube.com{youtubeVideoId}`}
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
