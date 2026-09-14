@@ -1,14 +1,13 @@
 import { MessageCircle } from "lucide-react";
 // 👇 1. IMPORT IKON DI SINI (Memastikan Vercel dapat membaca file gambar dengan benar)
 import TokopediaIcon from "../assets/images/tokopedia.svg";
-import ShopeeIcon from "../assets/images/shopee.svg";
 
 export default function PricingSection() {
   // 👇 Silakan isi nomor WhatsApp Anda di sini, contoh: "https://wa.me..."
   const whatsappUrl =
     "https://wa.me/6285892713270?text=Halo,%20saya%20tertarik%20dengan%20unit%20TOTO%20NEOREST%20EX%20TCF9911A."; // Ganti nomor sesuai kebutuhan
 
-  const tokopediaUrl = "https://tokopedia.com";
+  const tokopediaUrl = "https://tk.tokopedia.com/ZSqUm9qD7/";
   const shopeeUrl = "https://shopee.co.id";
 
   return (
@@ -54,7 +53,7 @@ export default function PricingSection() {
             </span>
 
             {/* Harga Utama (Ditawarkan) */}
-            <span className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#111111] tracking-tight">
+            <span className="text-4xl sm:text-4xl lg:text-4xl font-semibold text-[#111111] tracking-tight">
               Rp9.900.000
             </span>
           </div>
@@ -65,9 +64,6 @@ export default function PricingSection() {
               Harga sewaktu-waktu bisa berubah.
             </span>
           </div>
-
-          {/* 7. Microcopy */}
-          <p className="text-xs sm:text-sm text-[#2B2B2B] font-light mb-6 pb-6 border-b border-[#E8EAEC]"></p>
 
           {/* 8. Action CTAs */}
           <div className="w-full flex flex-col items-stretch">
@@ -85,11 +81,11 @@ export default function PricingSection() {
 
             {/* Microcopy note */}
             <p className="text-xs text-[#A7ADB2] tracking-wide mb-3">
-              Pilih metode transaksi yang paling nyaman untuk Anda.
+              Chat WhatsApp untuk tanya-tanya & nego harga.
             </p>
 
             {/* Secondary CTAs */}
-            <div className="flex flex-col sm:grid sm:grid-cols-2 gap-3 mb-4">
+            <div className="flex flex-col gap-3 mb-4">
               {/* Tombol Tokopedia */}
               <a
                 id="pricing-secondary-tokopedia-cta"
@@ -105,23 +101,6 @@ export default function PricingSection() {
                   className="w-4 h-4 object-contain"
                 />
                 <span>Tokopedia</span>
-              </a>
-
-              {/* Tombol Shopee */}
-              <a
-                id="pricing-secondary-shopee-cta"
-                href={shopeeUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full min-h-[48px] inline-flex items-center justify-center space-x-2.5 px-5 py-3 border border-[#C7C9CC] text-[#111111] hover:border-[#111111] hover:bg-[#FAFAFA] transition-colors duration-200 text-xs font-medium tracking-wider uppercase"
-              >
-                {/* 👇 MENGGUNAKAN VARIABEL IMPORT YANG SUDAH JELAS PATH-NYA */}
-                <img
-                  src={ShopeeIcon}
-                  alt="Shopee"
-                  className="w-4 h-4 object-contain"
-                />
-                <span>Shopee</span>
               </a>
             </div>
           </div>
