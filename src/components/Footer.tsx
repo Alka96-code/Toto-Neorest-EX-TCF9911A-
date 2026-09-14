@@ -1,14 +1,12 @@
 // 👇 1. IMPORT IKON DI SINI (Memastikan Vercel dapat membaca file gambar dengan benar)
 import WhatsAppIcon from "../assets/images/whatsappblack.svg";
 import TokopediaIcon from "../assets/images/tokopedia.svg";
-import ShopeeIcon from "../assets/images/shopee.svg";
 
 export default function Footer() {
   const whatsappUrl =
     "https://wa.me/6285892713270?text=Halo,%20saya%20tertarik%20dengan%20unit%20TOTO%20NEOREST%20EX%20TCF9911A."; // Ganti nomor sesuai kebutuhan
 
   const tokopediaUrl = "https://www.tokopedia.com";
-  const shopeeUrl = "https://shopee.co.id";
 
   return (
     <footer className="w-full bg-[#FFFFFF] border-t border-[#E8EAEC] py-10 sm:py-12 text-[#2B2B2B]">
@@ -71,19 +69,6 @@ export default function Footer() {
               <img
                 src={TokopediaIcon}
                 alt="Tokopedia"
-                className="w-4 h-4 object-contain"
-              />
-            </a>
-            <span className="text-[#E8EAEC]">•</span>
-            <a
-              href={shopeeUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:underline"
-            >
-              <img
-                src={ShopeeIcon}
-                alt="Shopee"
                 className="w-4 h-4 object-contain"
               />
             </a>
