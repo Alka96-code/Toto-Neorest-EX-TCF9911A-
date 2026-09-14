@@ -106,49 +106,63 @@ export default function PricingSection() {
           </div>
         </div>
       </div>
-
-      {/* B2B / Contractor Banner Section */}
-      <div className="w-full mt-6 border border-[#E2E4E6] bg-[#FAFAFA] p-4 sm:p-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-        {/* Kolom Kiri: Gambar Proyek/Toilet */}
-        <div className="w-full aspect-[4/3] md:aspect-square bg-[#E2E4E6] overflow-hidden rounded-sm relative">
-          <img
-            src={kontraktor} // 💡 Ganti dengan variabel/path gambar Anda
-            alt="Stok Toilet Second Berkualitas untuk Proyek"
-            className="w-full h-full object-cover"
-          />
-        </div>
-
-        {/* Kolom Kanan: Copywriting & CTA */}
-        <div className="flex flex-col justify-center space-y-4">
-          <div className="space-y-2">
-            <span className="text-[10px] font-bold tracking-widest uppercase text-[#00AA5B]">
-              Kemitraan Kontraktor & B2B
-            </span>
-            <h3 className="text-base sm:text-lg font-bold text-[#111111] leading-snug uppercase tracking-wide">
-              Pangkas Anggaran Proyek Tanpa Kompromi Kualitas
-            </h3>
-            <p className="text-xs sm:text-sm text-[#52575C] leading-relaxed">
-              Sedang memimpin proyek konstruksi dan butuh toilet dalam jumlah
-              besar? Kami siap memasok **toilet second berkualitas tinggi
-              standar proyek** dengan harga yang jauh lebih efisien. Siap kirim
-              partai besar untuk mes karyawan, direksi keet, maupun fasilitas
-              proyek Anda.
-            </p>
+      {/* B2B / Bulk Purchase Banner Section */}
+      <div className="mt-6 w-full border border-[#E2E4E6] bg-[#FAFAFA] p-4 sm:p-6">
+        <div className="grid grid-cols-1 items-center gap-6 md:grid-cols-2 md:gap-8">
+          {/* Kolom Kiri: Gambar */}
+          <div className="relative aspect-[4/3] w-full overflow-hidden rounded-sm bg-[#E2E4E6] md:aspect-square">
+            <img
+              src={kontraktor}
+              alt="TOTO NEOREST TCF9911A bekas untuk pembelian dalam jumlah banyak"
+              className="h-full w-full object-cover"
+            />
           </div>
 
-          {/* CTA Khusus Proyek */}
-          <a
-            id="pricing-b2b-project-cta"
-            href={
-              whatsappUrl +
-              "?text=Halo%20saya%20ingin%20tanya%20stok%20toilet%20second%20untuk%20kebutuhan%20proyek"
-            } // Otomatis isi pesan WA jika mendukung
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full min-h-[44px] inline-flex items-center justify-center space-x-2 border-2 border-[#111111] bg-[#111111] text-white hover:bg-transparent hover:text-[#111111] transition-all duration-200 text-xs font-semibold tracking-wider uppercase px-4"
-          >
-            <span>Hubungi Tim Fleet & Proyek Kami</span>
-          </a>
+          {/* Kolom Kanan: Copywriting & CTA */}
+          <div className="flex flex-col justify-center">
+            {/* Label */}
+            <span className="mb-3 text-[10px] font-bold uppercase tracking-[0.18em] text-[#00AA5B] sm:text-xs">
+              Pembelian Partai Besar & B2B
+            </span>
+
+            {/* Headline */}
+            <h3 className="max-w-xl text-xl font-bold leading-tight text-[#111111] sm:text-2xl md:text-3xl">
+              Butuh TOTO NEOREST TCF9911A dalam Jumlah Banyak?
+            </h3>
+
+            {/* Description */}
+            <p className="mt-4 max-w-xl text-sm leading-relaxed text-[#52575C] sm:text-base">
+              Tersedia unit bekas dengan kondisi baik untuk kebutuhan proyek,
+              reseller, hotel, villa, apartemen, maupun kontraktor.
+            </p>
+
+            {/* Main Offer */}
+            <div className="mt-5 border-l-2 border-[#00AA5B] pl-4">
+              <p className="text-base font-bold leading-snug text-[#111111] sm:text-lg">
+                Harga khusus untuk pembelian dalam jumlah banyak.
+              </p>
+            </div>
+
+            {/* Supporting CTA Copy */}
+            <p className="mt-5 text-xs leading-relaxed text-[#73777B] sm:text-sm">
+              Hubungi kami untuk informasi stok, kondisi unit, dan penawaran
+              terbaik.
+            </p>
+
+            {/* WhatsApp CTA */}
+            <a
+              id="pricing-b2b-project-cta"
+              href={
+                whatsappUrl +
+                "?text=Halo%2C%20saya%20tertarik%20dengan%20TOTO%20NEOREST%20TCF9911A%20untuk%20pembelian%20dalam%20jumlah%20banyak.%20Saya%20ingin%20menanyakan%20stok%2C%20kondisi%20unit%2C%20dan%20penawaran%20harganya."
+              }
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-flex min-h-[48px] w-full items-center justify-center bg-[#111111] px-5 text-xs font-semibold uppercase tracking-[0.12em] text-white transition-all duration-200 hover:bg-[#00AA5B] sm:w-fit sm:min-w-[260px] sm:text-sm"
+            >
+              Hubungi Kami via WhatsApp
+            </a>
+          </div>
         </div>
       </div>
     </section>
