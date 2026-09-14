@@ -36,8 +36,8 @@ export default function HeroSection() {
 
             {/* Headline */}
             <h1 className="text-2xl sm:text-4xl lg:text-[44px] leading-[1.15] font-light text-[#111111] tracking-tight mb-5 sm:mb-6">
-              Smart Toilet Premium, <br className="hidden sm:inline" />
-              <span className="font-normal">Lebih Terjangkau</span>
+              Smart Toilet Premium <br className="hidden sm:inline" />
+              <span className="font-normal">Bekas berkualitas</span>
             </h1>
 
             {/* Supporting copy */}
