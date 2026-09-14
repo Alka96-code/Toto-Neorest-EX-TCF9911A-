@@ -121,7 +121,7 @@ export default function PricingSection() {
           {/* Kolom Kanan: Copywriting & CTA */}
           <div className="flex flex-col justify-center">
             {/* Label */}
-            <span className="mb-3 text-[10px] font-bold uppercase tracking-[0.18em] text-[#00AA5B] sm:text-xs">
+            <span className="mb-3 text-[10px] font-bold uppercase tracking-[0.18em] text-[#A7ADB2] sm:text-xs">
               Pembelian Partai Besar & B2B
             </span>
 
@@ -158,7 +158,7 @@ export default function PricingSection() {
               }
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 inline-flex min-h-[48px] w-full items-center justify-center bg-[#111111] px-5 text-xs font-semibold uppercase tracking-[0.12em] text-white transition-all duration-200 hover:bg-[#00AA5B] sm:w-fit sm:min-w-[260px] sm:text-sm rounded-md"
+              className="mt-6 inline-flex min-h-[48px] w-full items-center justify-center bg-[#111111] px-5 text-xs font-semibold uppercase tracking-[0.12em] text-white transition-all duration-200 hover:bg-[#2B2B2B] sm:w-fit sm:min-w-[260px] sm:text-sm rounded-md"
             >
               Hubungi Kami via WhatsApp
             </a>
