@@ -32,7 +32,7 @@ export default function FaqFinalCtaSection() {
     },
     {
       q: "Apakah bisa membeli melalui marketplace?",
-      a: "Bisa. Transaksi dapat dilakukan dengan aman melalui Tokopedia atau Shopee.",
+      a: "Bisa. Transaksi dapat dilakukan melalui Tokopedia.",
     },
   ];
 
