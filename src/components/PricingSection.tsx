@@ -73,7 +73,7 @@ export default function PricingSection() {
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full min-h-[48px] inline-flex items-center justify-center space-x-2.5 px-6 py-3.5 bg-[#111111] text-white hover:bg-[#2B2B2B] transition-colors duration-200 text-sm font-medium tracking-wide shadow-sm mb-3"
+              className="w-full min-h-[48px] inline-flex items-center justify-center space-x-2.5 px-6 py-3.5 bg-[#111111] text-white hover:bg-[#2B2B2B] transition-colors duration-200 text-sm font-medium tracking-wide shadow-sm mb-3 rounded-md"
             >
               <MessageCircle className="w-4 h-4 text-white" />
               <span>Chat WhatsApp</span>
@@ -92,7 +92,7 @@ export default function PricingSection() {
                 href={tokopediaUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full min-h-[48px] inline-flex items-center justify-center space-x-2.5 px-5 py-3 border border-[#C7C9CC] text-[#111111] hover:border-[#111111] hover:bg-[#FAFAFA] transition-colors duration-200 text-xs font-medium tracking-wider uppercase"
+                className="w-full min-h-[48px] inline-flex items-center justify-center space-x-2.5 px-5 py-3 border border-[#C7C9CC] text-[#111111] hover:border-[#111111] hover:bg-[#FAFAFA] transition-colors duration-200 text-xs font-medium tracking-wider uppercase rounded-md"
               >
                 {/* 👇 MENGGUNAKAN VARIABEL IMPORT YANG SUDAH JELAS PATH-NYA */}
                 <img
@@ -110,7 +110,7 @@ export default function PricingSection() {
       <div className="mt-6 w-full border border-[#E2E4E6] bg-[#FAFAFA] p-4 sm:p-6">
         <div className="grid grid-cols-1 items-center gap-6 md:grid-cols-2 md:gap-8">
           {/* Kolom Kiri: Gambar */}
-          <div className="relative aspect-[4/3] w-full overflow-hidden rounded-sm bg-[#E2E4E6] md:aspect-square">
+          <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl bg-[#E2E4E6] md:aspect-square">
             <img
               src={kontraktor}
               alt="TOTO NEOREST TCF9911A bekas untuk pembelian dalam jumlah banyak"
@@ -158,7 +158,7 @@ export default function PricingSection() {
               }
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 inline-flex min-h-[48px] w-full items-center justify-center bg-[#111111] px-5 text-xs font-semibold uppercase tracking-[0.12em] text-white transition-all duration-200 hover:bg-[#00AA5B] sm:w-fit sm:min-w-[260px] sm:text-sm"
+              className="mt-6 inline-flex min-h-[48px] w-full items-center justify-center bg-[#111111] px-5 text-xs font-semibold uppercase tracking-[0.12em] text-white transition-all duration-200 hover:bg-[#00AA5B] sm:w-fit sm:min-w-[260px] sm:text-sm rounded-md"
             >
               Hubungi Kami via WhatsApp
             </a>

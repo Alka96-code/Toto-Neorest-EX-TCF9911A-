@@ -53,7 +53,7 @@ export default function HeroSection() {
                 href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full sm:w-auto min-h-[48px] inline-flex items-center justify-center space-x-2.5 px-6 sm:px-8 py-3.5 bg-[#111111] text-white hover:bg-[#2B2B2B] transition-colors duration-200 text-sm font-medium tracking-wide shadow-sm"
+                className="w-full sm:w-auto min-h-[48px] inline-flex items-center justify-center space-x-2.5 px-6 sm:px-8 py-3.5 bg-[#111111] text-white hover:bg-[#2B2B2B] transition-colors duration-200 text-sm font-medium tracking-wide shadow-sm rounded-md"
               >
                 <MessageCircle className="w-4 h-4" />
                 <span>Chat WhatsApp</span>
@@ -63,7 +63,7 @@ export default function HeroSection() {
                 id="hero-secondary-detail-cta"
                 type="button"
                 onClick={handleScrollToDetail}
-                className="w-full sm:w-auto min-h-[48px] inline-flex items-center justify-center space-x-2 px-6 sm:px-8 py-3.5 border border-[#C7C9CC] text-[#111111] hover:border-[#111111] hover:bg-[#E8EAEC]/40 transition-colors duration-200 text-sm font-medium tracking-wide"
+                className="w-full sm:w-auto min-h-[48px] inline-flex items-center justify-center space-x-2 px-6 sm:px-8 py-3.5 border border-[#C7C9CC] text-[#111111] hover:border-[#111111] hover:bg-[#E8EAEC]/40 transition-colors duration-200 text-sm font-medium tracking-wide rounded-md"
               >
                 <span>Lihat Detail Produk</span>
                 <ChevronDown className="w-4 h-4 text-[#A7ADB2]" />
