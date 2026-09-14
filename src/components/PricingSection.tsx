@@ -106,6 +106,51 @@ export default function PricingSection() {
           </div>
         </div>
       </div>
+
+      {/* B2B / Contractor Banner Section */}
+      <div className="w-full mt-6 border border-[#E2E4E6] bg-[#FAFAFA] p-4 sm:p-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+        {/* Kolom Kiri: Gambar Proyek/Toilet */}
+        <div className="w-full aspect-[4/3] md:aspect-square bg-[#E2E4E6] overflow-hidden rounded-sm relative">
+          <img
+            src={ProjectToiletImage} // 💡 Ganti dengan variabel/path gambar Anda
+            alt="Stok Toilet Second Berkualitas untuk Proyek"
+            className="w-full h-full object-cover"
+          />
+        </div>
+
+        {/* Kolom Kanan: Copywriting & CTA */}
+        <div className="flex flex-col justify-center space-y-4">
+          <div className="space-y-2">
+            <span className="text-[10px] font-bold tracking-widest uppercase text-[#00AA5B]">
+              Kemitraan Kontraktor & B2B
+            </span>
+            <h3 className="text-base sm:text-lg font-bold text-[#111111] leading-snug uppercase tracking-wide">
+              Pangkas Anggaran Proyek Tanpa Kompromi Kualitas
+            </h3>
+            <p className="text-xs sm:text-sm text-[#52575C] leading-relaxed">
+              Sedang memimpin proyek konstruksi dan butuh toilet dalam jumlah
+              besar? Kami siap memasok **toilet second berkualitas tinggi
+              standar proyek** dengan harga yang jauh lebih efisien. Siap kirim
+              partai besar untuk mes karyawan, direksi keet, maupun fasilitas
+              proyek Anda.
+            </p>
+          </div>
+
+          {/* CTA Khusus Proyek */}
+          <a
+            id="pricing-b2b-project-cta"
+            href={
+              whatsappUrl +
+              "?text=Halo%20saya%20ingin%20tanya%20stok%20toilet%20second%20untuk%20kebutuhan%20proyek"
+            } // Otomatis isi pesan WA jika mendukung
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full min-h-[44px] inline-flex items-center justify-center space-x-2 border-2 border-[#111111] bg-[#111111] text-white hover:bg-transparent hover:text-[#111111] transition-all duration-200 text-xs font-semibold tracking-wider uppercase px-4"
+          >
+            <span>Hubungi Tim Fleet & Proyek Kami</span>
+          </a>
+        </div>
+      </div>
     </section>
   );
 }
