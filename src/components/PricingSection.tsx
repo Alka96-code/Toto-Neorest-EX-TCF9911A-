@@ -1,6 +1,7 @@
 import { MessageCircle } from "lucide-react";
 // 👇 1. IMPORT IKON DI SINI (Memastikan Vercel dapat membaca file gambar dengan benar)
 import TokopediaIcon from "../assets/images/tokopedia.svg";
+import kontraktor from "../assets/images/kontraktor.jpg"; // Ganti dengan path gambar yang sesuai
 
 export default function PricingSection() {
   // 👇 Silakan isi nomor WhatsApp Anda di sini, contoh: "https://wa.me..."
@@ -8,7 +9,6 @@ export default function PricingSection() {
     "https://wa.me/6285892713270?text=Halo,%20saya%20tertarik%20dengan%20unit%20TOTO%20NEOREST%20EX%20TCF9911A."; // Ganti nomor sesuai kebutuhan
 
   const tokopediaUrl = "https://tk.tokopedia.com/ZSqUm9qD7/";
-  const shopeeUrl = "https://shopee.co.id";
 
   return (
     <section
@@ -112,7 +112,7 @@ export default function PricingSection() {
         {/* Kolom Kiri: Gambar Proyek/Toilet */}
         <div className="w-full aspect-[4/3] md:aspect-square bg-[#E2E4E6] overflow-hidden rounded-sm relative">
           <img
-            src={ProjectToiletImage} // 💡 Ganti dengan variabel/path gambar Anda
+            src={kontraktor} // 💡 Ganti dengan variabel/path gambar Anda
             alt="Stok Toilet Second Berkualitas untuk Proyek"
             className="w-full h-full object-cover"
           />

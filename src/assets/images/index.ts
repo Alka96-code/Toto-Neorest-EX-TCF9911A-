@@ -9,6 +9,7 @@ import actualFrontImage from "./tampak_depan.jpg";
 import actualSideImage from "./tampak_samping.jpg";
 import actualBackImage from "./tampak_belakang.jpg";
 import actualInsideImage from "./tampak_dalam.jpg";
+import kontraktorImage from "./kontraktor.jpg";
 
 export const productImages = {
   hero: heroImage,
@@ -22,4 +23,5 @@ export const productImages = {
   actualSide: actualSideImage,
   actualBack: actualBackImage,
   tampakDalam: actualInsideImage,
+  kontraktor: kontraktorImage,
 };
